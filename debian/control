@@ -1,0 +1,12 @@
+Source: ros-jade-test-nodelet-topic-tools
+Section: misc
+Priority: extra
+Maintainer: Esteve Fernandez <esteve@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin (>= 0.5.68), ros-jade-message-filters, ros-jade-nodelet, ros-jade-nodelet-topic-tools, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-rospy, ros-jade-rostest, ros-jade-std-msgs
+Homepage: http://ros.org/wiki/nodelet_topic_tools
+Standards-Version: 3.9.2
+
+Package: ros-jade-test-nodelet-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-message-filters, ros-jade-nodelet, ros-jade-nodelet-topic-tools, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-std-msgs
+Description: A package for nodelet_topic_tools unit tests.
