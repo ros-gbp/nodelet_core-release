@@ -1,3 +1,31 @@
+## nodelet_core (jade) - 1.9.2-0
+
+The packages in the `nodelet_core` repository were released into the `jade` distro by running `/usr/bin/bloom-release nodelet_core --track jade --rosdistro jade --new-track` on `Wed, 31 Dec 2014 21:12:33 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+- upstream repository: https://github.com/ros/nodelet_core.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## nodelet_core (hydro) - 1.8.6-0
 
 The packages in the `nodelet_core` repository were released into the `hydro` distro by running `/usr/bin/bloom-release nodelet_core --track hydro --rosdistro hydro` on `Thu, 30 Oct 2014 18:30:53 -0000`
