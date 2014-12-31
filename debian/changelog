@@ -1,0 +1,157 @@
+ros-jade-test-nodelet (1.9.2-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 30 Oct 2014 07:00:00 -0000
+
+ros-jade-test-nodelet (1.9.1-0utopic) utopic; urgency=high
+
+  * test_nodelet: test for #23 <https://github.com/ros/nodelet_core/issues/23> (display helpful error msg)
+  * Contributors: Max Schwarz
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Wed, 29 Oct 2014 07:00:00 -0000
+
+ros-jade-test-nodelet (1.9.0-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Mon, 16 Jun 2014 07:00:00 -0000
+
+ros-jade-test-nodelet (1.8.3-0utopic) utopic; urgency=high
+
+  * update changelogs
+  * Update maintainer field
+  * Contributors: Dirk Thomas, Esteve Fernandez
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 08 May 2014 07:00:00 -0000
+
+ros-jade-test-nodelet (1.8.2-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Tue, 07 Jan 2014 08:00:00 -0000
+
+ros-jade-test-nodelet (1.8.0-0utopic) utopic; urgency=high
+
+  * check for CATKIN_ENABLE_TESTING
+  * update email in package.xml
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 11 Jul 2013 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.15-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Tue, 12 Mar 2013 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.14-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Sun, 13 Jan 2013 08:00:00 -0000
+
+ros-jade-test-nodelet (1.7.13-0utopic) utopic; urgency=high
+
+  * move nodelet_topic_tools to separate package, fix unit tests
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 27 Dec 2012 08:00:00 -0000
+
+ros-jade-test-nodelet (1.7.12-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Wed, 19 Dec 2012 09:34:00 -0000
+
+ros-jade-test-nodelet (1.7.11-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Wed, 19 Dec 2012 08:58:00 -0000
+
+ros-jade-test-nodelet (1.7.10-0utopic) utopic; urgency=high
+
+  * add missing dep to catkin
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Fri, 14 Dec 2012 08:00:00 -0000
+
+ros-jade-test-nodelet (1.7.9-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 13 Dec 2012 08:00:00 -0000
+
+ros-jade-test-nodelet (1.7.8-0utopic) utopic; urgency=high
+
+  * fix test registration
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 06 Dec 2012 08:00:00 -0000
+
+ros-jade-test-nodelet (1.7.7-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 01 Nov 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.6-0utopic) utopic; urgency=high
+
+  * clean up package.xml files
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Tue, 30 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.5-0utopic) utopic; urgency=high
+
+  * fixed compiling tests
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Tue, 23 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.4-0utopic) utopic; urgency=high
+
+  * fixed cmake to find dependencies correctly
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Mon, 08 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.3-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Thu, 04 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.2-0utopic) utopic; urgency=high
+
+
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Wed, 03 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.1-0utopic) utopic; urgency=high
+
+  * adding nodelet_core metapackage and reving to 1.7.1
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Tue, 02 Oct 2012 07:00:00 -0000
+
+ros-jade-test-nodelet (1.7.0-0utopic) utopic; urgency=high
+
+  * make it compile locally
+  * first pass at catkinizing the stack
+  * add explicit boost link
+  * Added benchmark for CallbackQueueManager performance.
+  * adding support for once, throttle, and filter features.  With unit tests for all but the filters #4681 <https://github.com/ros/nodelet_core/issues/4681>
+  * fix test on machines with only 1 core (#4082 <https://github.com/ros/nodelet_core/issues/4082>)
+  * fix hanging tests and a hang on nodelet CallbackQueueManager destruction (#4082 <https://github.com/ros/nodelet_core/issues/4082>)
+  * backing out my testing changes accidentally committed
+  * reving for release 1.1.6
+  * Added Ubuntu platform tags to manifest
+  * Hopefully fix what is probably a load-related test problem (http://build.willowgarage.com/job/ros-latest-all-test-ubuntu-jaunty-x86_64/36/testReport/test_nodelet.test_callback_queue_manager/CallbackQueueManager/test_nodelet_test_callback_queue_manager_multipleSingleThreaded/)
+  * Fix && that should have been || (#4048 <https://github.com/ros/nodelet_core/issues/4048>)
+  * add wait_for_service calls
+  * merging josh's branch from ticket #3875 <https://github.com/ros/nodelet_core/issues/3875>
+  * moving topic tools out of nodelet proper, removing rospy and message_filters dependencies from nodelet
+  * review status
+  * removing extra launch files and adding test to CMake
+  * coverage on nodelet commands in tests, coverage of parameter and remapping passing
+  * two unit tests passing
+  * first unittest working
+  * creating test package for nodelet
+
+ -- Esteve Fernandez <esteve@osrfoundation.org>  Mon, 01 Oct 2012 07:00:00 -0000
+
+
