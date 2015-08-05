@@ -1,0 +1,12 @@
+Source: ros-indigo-nodelet-topic-tools
+Section: misc
+Priority: extra
+Maintainer: Esteve Fernandez <esteve@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-dynamic-reconfigure
+Homepage: http://ros.org/wiki/nodelet_topic_tools
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nodelet-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-dynamic-reconfigure, ros-indigo-message-filters, ros-indigo-nodelet, ros-indigo-pluginlib, ros-indigo-roscpp
+Description: This package contains common nodelet tools such as a mux, demux and throttle.
