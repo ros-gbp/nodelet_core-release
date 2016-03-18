@@ -1,0 +1,12 @@
+Source: ros-jade-nodelet-core
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://www.ros.org/wiki/nodelet_core
+Standards-Version: 3.9.2
+
+Package: ros-jade-nodelet-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-nodelet, ros-jade-nodelet-topic-tools
+Description: Nodelet Core Metapackage
