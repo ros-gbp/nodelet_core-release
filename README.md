@@ -1,3 +1,33 @@
+## nodelet_core (indigo) - 1.9.7-0
+
+The packages in the `nodelet_core` repository were released into the `indigo` distro by running `/usr/bin/bloom-release nodelet_core -t indigo -r indigo` on `Tue, 25 Oct 2016 00:17:04 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+
+- upstream repository: git://github.com/ros/nodelet_core.git
+- release repository: https://github.com/ros-gbp/nodelet_core-release.git
+- rosdistro version: `1.9.5-0`
+- old version: `1.9.6-0`
+- new version: `1.9.7-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.39`
+
+
 ## nodelet_core (kinetic) - 1.9.7-0
 
 The packages in the `nodelet_core` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release nodelet_core -r kinetic -t kinetic` on `Mon, 24 Oct 2016 18:43:45 -0000`
