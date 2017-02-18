@@ -1,0 +1,12 @@
+Source: ros-kinetic-nodelet-core
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/nodelet_core
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-nodelet-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-nodelet, ros-kinetic-nodelet-topic-tools
+Description: Nodelet Core Metapackage
