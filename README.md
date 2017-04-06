@@ -1,3 +1,33 @@
+## nodelet_core (jade) - 1.9.10-0
+
+The packages in the `nodelet_core` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade nodelet_core` on `Thu, 06 Apr 2017 20:58:32 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+
+- upstream repository: https://github.com/ros/nodelet_core.git
+- release repository: https://github.com/ros-gbp/nodelet_core-release.git
+- rosdistro version: `1.9.8-0`
+- old version: `1.9.8-0`
+- new version: `1.9.10-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## nodelet_core (kinetic) - 1.9.10-0
 
 The packages in the `nodelet_core` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release nodelet_core -r kinetic -t kinetic` on `Thu, 30 Mar 2017 14:33:39 -0000`
