@@ -2,6 +2,26 @@
 Changelog for package nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.10 (2017-03-27)
+-------------------
+* installs the list_nodelets script (`#58 <https://github.com/ros/nodelet_core/issues/58>`_)
+  * python3 compatibility
+  * pep8
+  * install list_nodelets
+  * print message with service name
+* return outside of try catch
+* fix unused var warning
+* give node a name, empty node names not supported since https://github.com/ros/ros_comm/commit/bd3af70520648783da8aa4d3610f234a4d2bd41f
+* remove tabs
+* fix help message
+* Contributors: Mikael Arguedas
+
+1.9.9 (2017-02-17)
+------------------
+* drop unused dependency on tinyxml (`#54 <https://github.com/ros/nodelet_core/pull/54>`_)
+* Install the declared_nodelets script (`#53 <https://github.com/ros/nodelet_core/pull/53>`_)
+* Contributors: Dmitry Rozhkov, Kentaro Wada
+
 1.9.8 (2016-11-15)
 ------------------
 * Fix bond handling during nodelet unloading (`#51 <https://github.com/ros/nodelet_core/issues/51>`_)
