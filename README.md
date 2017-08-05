@@ -1,3 +1,33 @@
+## nodelet_core (lunar) - 1.9.12-0
+
+The packages in the `nodelet_core` repository were released into the `lunar` distro by running `/usr/bin/bloom-release nodelet_core -r lunar -t lunar` on `Sat, 05 Aug 2017 06:28:13 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+
+- upstream repository: https://github.com/ros/nodelet_core.git
+- release repository: https://github.com/ros-gbp/nodelet_core-release.git
+- rosdistro version: `1.9.11-0`
+- old version: `1.9.11-0`
+- new version: `1.9.12-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## nodelet_core (lunar) - 1.9.11-0
 
 The packages in the `nodelet_core` repository were released into the `lunar` distro by running `/usr/bin/bloom-release nodelet_core -r lunar -t lunar` on `Thu, 27 Jul 2017 17:19:21 -0000`
