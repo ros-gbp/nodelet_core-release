@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>nodelet_topic_tools</name>
-  <version>1.9.11</version>
+  <version>1.9.12</version>
   <description>
     This package contains common nodelet tools such as a mux, demux and throttle.
   </description>
@@ -20,8 +20,8 @@
   <depend>boost</depend>
   <depend>dynamic_reconfigure</depend>
 
-  <exec_depend>message_filters</exec_depend>
-  <exec_depend>nodelet</exec_depend>
-  <exec_depend>pluginlib</exec_depend>
-  <exec_depend>roscpp</exec_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>nodelet</build_export_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
 </package>
