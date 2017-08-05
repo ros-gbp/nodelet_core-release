@@ -2,6 +2,9 @@
 Changelog for package nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.12 (2017-08-04)
+-------------------
+
 1.9.11 (2017-07-27)
 -------------------
 * Add getRemappingArgs method to nodelet to reuse it in subclass (`#61 <https://github.com/ros/nodelet_core/issues/61>`_)
