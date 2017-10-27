@@ -1,0 +1,13 @@
+Source: ros-lunar-nodelet
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-lunar-bondcpp, ros-lunar-catkin, ros-lunar-cmake-modules (>= 0.3.2), ros-lunar-message-generation, ros-lunar-pluginlib (>= 1.10.0), ros-lunar-rosconsole, ros-lunar-roscpp, ros-lunar-std-msgs, uuid-dev
+Homepage: http://ros.org/wiki/nodelet
+Standards-Version: 3.9.2
+
+Package: ros-lunar-nodelet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-lunar-bondcpp, ros-lunar-message-runtime, ros-lunar-pluginlib (>= 1.10.0), ros-lunar-rosconsole, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-std-msgs, uuid-dev
+Description: The nodelet package is designed to provide a way to run multiple algorithms in the same process with zero copy transport between algorithms.
+ This package provides both the nodelet base class needed for implementing a nodelet, as well as the NodeletLoader class used for instantiating nodelets.
