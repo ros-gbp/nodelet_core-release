@@ -1,0 +1,12 @@
+Source: ros-melodic-nodelet-topic-tools
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-dynamic-reconfigure
+Homepage: http://ros.org/wiki/nodelet_topic_tools
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nodelet-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-dynamic-reconfigure, ros-melodic-message-filters, ros-melodic-nodelet, ros-melodic-pluginlib, ros-melodic-roscpp
+Description: This package contains common nodelet tools such as a mux, demux and throttle.
