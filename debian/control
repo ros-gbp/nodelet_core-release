@@ -1,0 +1,13 @@
+Source: ros-melodic-nodelet
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-bondcpp, ros-melodic-catkin, ros-melodic-cmake-modules (>= 0.3.2), ros-melodic-message-generation, ros-melodic-pluginlib (>= 1.10.0), ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-std-msgs, uuid-dev
+Homepage: http://ros.org/wiki/nodelet
+Standards-Version: 3.9.2
+
+Package: ros-melodic-nodelet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-bondcpp, ros-melodic-message-runtime, ros-melodic-pluginlib (>= 1.10.0), ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs, uuid-dev
+Description: The nodelet package is designed to provide a way to run multiple algorithms in the same process with zero copy transport between algorithms.
+ This package provides both the nodelet base class needed for implementing a nodelet, as well as the NodeletLoader class used for instantiating nodelets.
