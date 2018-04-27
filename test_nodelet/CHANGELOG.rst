@@ -2,6 +2,9 @@
 Changelog for package test_nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.16 (2018-04-27)
+-------------------
+
 1.9.15 (2018-03-16)
 -------------------
 * use new pluginlib headers (`#73 <https://github.com/ros/nodelet_core/issues/73>`_)
