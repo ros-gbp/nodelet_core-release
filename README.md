@@ -1,3 +1,33 @@
+## nodelet_core (melodic) - 1.9.16-0
+
+The packages in the `nodelet_core` repository were released into the `melodic` distro by running `/usr/bin/bloom-release nodelet_core -r melodic -t melodic` on `Fri, 27 Apr 2018 21:05:17 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+
+- upstream repository: https://github.com/ros/nodelet_core.git
+- release repository: https://github.com/ros-gbp/nodelet_core-release.git
+- rosdistro version: `1.9.15-0`
+- old version: `1.9.15-0`
+- new version: `1.9.16-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## nodelet_core (melodic) - 1.9.15-0
 
 The packages in the `nodelet_core` repository were released into the `melodic` distro by running `/usr/bin/bloom-release nodelet_core -r melodic -t melodic` on `Fri, 16 Mar 2018 21:25:15 -0000`
