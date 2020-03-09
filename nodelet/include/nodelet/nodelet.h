@@ -30,6 +30,7 @@
 #ifndef NODELET_NODELET_H
 #define NODELET_NODELET_H
 
+#include "nodeletdecl.h"
 #include "exception.h"
 
 #include <string>
@@ -162,6 +163,10 @@ typedef boost::shared_ptr<ros::NodeHandle> NodeHandlePtr;
 typedef std::map<std::string, std::string> M_string;
 typedef std::vector<std::string> V_string;
 
+namespace detail {
+	class CallbackQueue;
+}
+
 class UninitializedException : public Exception
 {
 public:
@@ -178,7 +183,7 @@ public:
   {}
 };
 
-class Nodelet
+class NODELETLIB_DECL Nodelet
 {
   // Protected data fields for use by the subclass.
 protected:
