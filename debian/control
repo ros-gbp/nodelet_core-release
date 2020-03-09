@@ -1,0 +1,13 @@
+Source: ros-noetic-nodelet
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <michael@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-noetic-bondcpp, ros-noetic-catkin, ros-noetic-cmake-modules (>= 0.3.2), ros-noetic-message-generation, ros-noetic-pluginlib (>= 1.10.0), ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-std-msgs, uuid-dev
+Homepage: http://ros.org/wiki/nodelet
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nodelet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-noetic-bondcpp, ros-noetic-message-runtime, ros-noetic-pluginlib (>= 1.10.0), ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, uuid-dev
+Description: The nodelet package is designed to provide a way to run multiple algorithms in the same process with zero copy transport between algorithms.
+ This package provides both the nodelet base class needed for implementing a nodelet, as well as the NodeletLoader class used for instantiating nodelets.
