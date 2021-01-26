@@ -1,1 +1,1 @@
-{"trim": "", "base": "05d032b0", "trimbase": "", "parent": "debian/noetic/nodelet_core", "previous": "a4633841"}
+{"base": "b42bef89", "parent": "debian/noetic/nodelet_core", "previous": "3e315f18", "trim": "", "trimbase": ""}
