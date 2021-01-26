@@ -1,3 +1,33 @@
+## nodelet_core (noetic) - 1.10.1-1
+
+The packages in the `nodelet_core` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic nodelet_core` on `Tue, 26 Jan 2021 01:36:15 -0000`
+
+These packages were released:
+- `nodelet`
+- `nodelet_core`
+- `nodelet_topic_tools`
+
+These packages were explicitly ignored:
+- `test_nodelet`
+- `test_nodelet_topic_tools`
+
+Version of package(s) in repository `nodelet_core`:
+
+- upstream repository: https://github.com/ros/nodelet_core.git
+- release repository: https://github.com/ros-gbp/nodelet_core-release.git
+- rosdistro version: `1.10.0-1`
+- old version: `1.10.0-1`
+- new version: `1.10.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## nodelet_core (noetic) - 1.10.0-1
 
 The packages in the `nodelet_core` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic nodelet_core` on `Mon, 09 Mar 2020 22:22:08 -0000`
