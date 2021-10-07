@@ -1,0 +1,244 @@
+ros-noetic-nodelet-core (1.10.2-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 07 Oct 2021 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.10.1-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 25 Jan 2021 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.10.0-1focal) focal; urgency=high
+
+  * Update maintainer to Michael Carroll (#104 <https://github.com/ros/nodelet_core/issues/104>)
+  * Bump CMake version to avoid CMP0048 warning (#102 <https://github.com/ros/nodelet_core/issues/102>)
+  * Contributors: Michael Carroll, Shane Loretz
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 09 Mar 2020 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.16-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 27 Apr 2018 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.15-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 16 Mar 2018 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.14-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 15 Nov 2017 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.13-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 27 Oct 2017 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.12-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 04 Aug 2017 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.11-1focal) focal; urgency=high
+
+  * remove trailing whitespaces (#62 <https://github.com/ros/nodelet_core/issues/62>)
+  * switch to package format 2 (#63 <https://github.com/ros/nodelet_core/issues/63>)
+  * Contributors: Mikael Arguedas
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 27 Jul 2017 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.10-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 27 Mar 2017 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.9-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 17 Feb 2017 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.8-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 15 Nov 2016 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.7-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 24 Oct 2016 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.6-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 20 Sep 2016 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.5-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 22 Jun 2016 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.4-1focal) focal; urgency=high
+
+  * update maintainer
+  * Contributors: Mikael Arguedas
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 15 Mar 2016 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.3-1focal) focal; urgency=high
+
+  * Update bugtracker url
+  * Contributors: Esteve Fernandez
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 05 Aug 2015 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.2-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 30 Oct 2014 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.1-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 29 Oct 2014 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.9.0-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 16 Jun 2014 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.8.3-1focal) focal; urgency=high
+
+  * update changelogs
+  * Update maintainer field
+  * Contributors: Dirk Thomas, Esteve Fernandez
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 08 May 2014 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.8.2-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 07 Jan 2014 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.8.0-1focal) focal; urgency=high
+
+  * update email in package.xml
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 11 Jul 2013 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.15-1focal) focal; urgency=high
+
+  * Fix nodelet_core metpackage package.xml
+  * add CMakeLists.txt for metapackage
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 12 Mar 2013 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.14-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Sun, 13 Jan 2013 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.13-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 27 Dec 2012 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.12-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 19 Dec 2012 07:34:00 -0000
+
+ros-noetic-nodelet-core (1.7.11-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 19 Dec 2012 06:58:00 -0000
+
+ros-noetic-nodelet-core (1.7.10-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 14 Dec 2012 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.9-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 13 Dec 2012 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.8-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 06 Dec 2012 06:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.7-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 01 Nov 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.6-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 30 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.5-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 23 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.4-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 08 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.3-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Thu, 04 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.2-1focal) focal; urgency=high
+
+  * remove test_nodelets for install
+
+ -- Michael Carroll <michael@openrobotics.org>  Wed, 03 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.1-1focal) focal; urgency=high
+
+  * adding nodelet_core metapackage and reving to 1.7.1
+
+ -- Michael Carroll <michael@openrobotics.org>  Tue, 02 Oct 2012 05:00:00 -0000
+
+ros-noetic-nodelet-core (1.7.0-1focal) focal; urgency=high
+
+
+
+ -- Michael Carroll <michael@openrobotics.org>  Mon, 01 Oct 2012 05:00:00 -0000
+
+
