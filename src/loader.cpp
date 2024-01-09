@@ -180,10 +180,10 @@ struct ManagedNodelet : boost::noncopyable
   detail::CallbackQueueManager* callback_manager;
 
   /// @todo Maybe addQueue/removeQueue should be done by CallbackQueue
-  ManagedNodelet(const NodeletPtr& nodelet, detail::CallbackQueueManager* cqm)
+  ManagedNodelet(NodeletPtr nodelet, detail::CallbackQueueManager* cqm)
     : st_queue(new detail::CallbackQueue(cqm, nodelet))
     , mt_queue(new detail::CallbackQueue(cqm, nodelet))
-    , nodelet(nodelet)
+    , nodelet(std::move(nodelet))
     , callback_manager(cqm)
   {
     // NOTE: Can't do this in CallbackQueue constructor because the shared_ptr to
@@ -216,7 +216,7 @@ struct Loader::Impl
     typedef pluginlib::ClassLoader<Nodelet> Loader;
     boost::shared_ptr<Loader> loader(new Loader("nodelet", "nodelet::Nodelet"));
     // create_instance_ is self-contained; it owns a copy of the loader shared_ptr
-    create_instance_ = boost::bind(&Loader::createInstance, loader, _1);
+    create_instance_ = boost::bind(&Loader::createInstance, loader, boost::placeholders::_1);
     refresh_classes_ = boost::bind(&Loader::refreshDeclaredClasses, loader);
   }
 
@@ -309,11 +309,11 @@ bool Loader::load(const std::string &name, const std::string& type, const ros::M
   }
   ROS_DEBUG("Done loading nodelet %s", name.c_str());
 
-  ManagedNodelet* mn = new ManagedNodelet(p, impl_->callback_manager_.get());
+  ManagedNodelet* mn = new ManagedNodelet(std::move(p), impl_->callback_manager_.get());
   impl_->nodelets_.insert(const_cast<std::string&>(name), mn); // mn now owned by boost::ptr_map
   try {
 
-    p->init(name, remappings, my_argv, mn->st_queue.get(), mn->mt_queue.get());
+    mn->nodelet->init(name, remappings, my_argv, mn->st_queue.get(), mn->mt_queue.get());
 
     ROS_DEBUG("Done initing nodelet %s", name.c_str());
   } catch(...) {
