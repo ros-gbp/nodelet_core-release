@@ -1,0 +1,12 @@
+Source: ros-noetic-nodelet-topic-tools
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, libboost-thread-dev, ros-noetic-catkin, ros-noetic-dynamic-reconfigure
+Homepage: http://ros.org/wiki/nodelet_topic_tools
+Standards-Version: 3.9.2
+
+Package: ros-noetic-nodelet-topic-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, libboost-thread-dev, ros-noetic-dynamic-reconfigure, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp
+Description: This package contains common nodelet tools such as a mux, demux and throttle.
